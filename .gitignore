@@ -1,0 +1,11 @@
+*.cof
+*.hxl
+*.lst
+*.map
+*.obj
+*.rlf
+*.sdb
+*.sym
+*.p1
+*.pre
+startup.*

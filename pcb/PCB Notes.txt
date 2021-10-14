@@ -1,0 +1,16 @@
+PCB - Notes
+===================
+In the PCB design in this folder, there are a few minor mistakes
+1. R8 (10K) is missing
+2. C10 (220u) is missing
+3. RA4 is used instead of RC1. (workaround: short RA4 and RC1)
+
+
+
+Initially, the circuit is designed for drawing 80mA current at each branch (or segment) of the LED display, which has a ~ 6.2 Volt drop in each segment. Hence the total current at common is ~640mA, and BD140 is selected. But later, it is found that a 350mA is sufficient for enough brightness and changed to BC328, and they are available in a smaller package (TO92).
+
+Displays are common anode type 2.1 inch red.
+
+IR Receiver and IR LED are included for future modifications. The circuit is functioning well without the resistors marked as unused (R34, R36, R39, R42, R46, R48 etc.).
+
+The PCB is not designed by myself therefore unable to correct the PCB design according to the corrected (later) schematic.
